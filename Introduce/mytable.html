@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>시간표 만들기 과제</title>
+    <style>
+        @font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'KyoboHandwriting2020A';
+}
+
+           table { border-collapse: collapse; }
+           td { border: 1px solid #CECCCD; width: 140px; height: 25px; 
+                vertical-align: center; text-align: center; }
+           th {border: 1px solid #CECCCD; height: 30px; }
+           td:nth-child(1), th:nth-child(1){width: 40px; height: 25px;}
+           span.fw {color: white;}
+           td span:hover {background-color:black; color:#ffc045; cursor: pointer; }
+           
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white; border-top: none; border-right: none; border-bottom: 1px solid rgb(189, 189, 189); border-left: none;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="성공회대학교.png" alt="" width="30" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="test.html">HTML/CSS 실습페이지</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mytable.html">시간표 과제 페이지</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gal.html">갤러리 페이지</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h2><span style="color: #F24A3E;">2021년 2학기</span><br/> 시간표 1 - 201814112 최재훈</h2>
+  <table>
+    <thead>
+        <tr>
+          <th></th>
+          <th>월</th>
+          <th>화</th>
+          <th>수</th>
+          <th>목</th>
+          <th>금</th>
+        </tr>
+   </thead>
+     <tbody>
+        <tr>
+           <td rowspan="2">9시</td>
+           <td bgcolor="F75B40" rowspan="6">
+                           <span class="fw">
+                           웹 프로그래밍 <br/>
+                           9:00~12:00 <br/>
+                           비대면
+                           </span>
+           </td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td rowspan="2">10시</td>
+           <td></td>    
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td rowspan="2">11시</td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>        
+       </tr>
+        <tr>
+           <td rowspan="2">12시</td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td rowspan="2">1시</td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td bgcolor="#EFD670" rowspan="2">
+                           <span class="fw">
+                           디지털기초디자인<br/>
+                           13:30~14:45<br/>
+                           비대면
+                           </span>
+           </td>
+           <td bgcolor="#67D9DB" rowspan="2">
+                           <span class="fw">
+                           운영체제<br/>
+                           13:30~14:45<br/>
+                           비대면
+                           </span>
+           </td>
+           <td bgcolor="#EFD670" rowspan="2">
+                           <span class="fw">
+                           디지털기초디자인<br/>
+                           13:30~14:45<br/>
+                           비대면
+                           </span>
+           </td>
+           <td bgcolor="#67D9DB" rowspan="2">
+                           <span class="fw">
+                           운영체제<br/>
+                           13:30~14:45<br/>
+                           비대면
+                           </span>
+           </td>
+           <td></td>
+       </tr>
+        <tr>
+           <td rowspan="2">2시</td>
+           <td></td>
+       </tr>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td rowspan="2">3시</td>
+           <td bgcolor="#6CE284" rowspan="3">
+                           <span class="fw">
+                           데이터통신<br/>
+                           15:00~16:15<br/>
+                           비대면
+                           </span>
+           </td>
+           <td></td>
+           <td bgcolor="#6CE284" rowspan="3">
+                           <span class="fw">
+                           데이터통신<br/>
+                           15:00~16:15<br/>
+                           비대면
+                           </span>
+           </td>
+           <td></td>
+           <td bgcolor="#FFA87A" rowspan="6">
+                           <span class="fw">
+                           자료구조<br/>
+                           15:00~18:00<br/>
+                           비대면
+                           </span>
+           </td>
+       </tr>
+        <tr>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td rowspan="2">4시</td>
+           <td bgcolor="#71A9ED" rowspan="4">
+                           <span class="fw">
+                           실용음악<br/>
+                           16:00~17:50<br/>
+                           비대면
+                           </span>
+           </td>
+           <td></td>
+       </tr>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td rowspan="2">5시</td>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>
+        <tr>
+           <td rowspan="2">6시</td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>           
+       </tr>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+       </tr>    
+    </tbody>
+  </table>    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+</body>
+</html>
+
