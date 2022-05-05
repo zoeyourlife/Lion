@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Donoun-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Donoun-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Donoun-Medium';
+}
+
+body, h1, h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+    color: gray;
+    font-weight: lighter;
+    border-bottom : 1px solid #B4A3AD;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.main-box{
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title-box{
+    text-align: right;
+}
+
+.name-text{
+    font-size: 16px;
+    color: #B4A3AD;
+    font-weight: bold;
+}
+
+.about-me-text{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.float-wrap{
+    overflow: hidden;
+}
+
+.title-text{
+    font-size: 12px;
+    font-weight: bold;
+    color:#B4A3AD;
+    float: left;
+}
+
+.year-text{
+    font-size:12px;
+    font-weight: bold;
+    color:#B4A3AD;
+    float:right;
+}
+
+.desc-text{
+    font-size:9px;
+}
+
+.desc-subtext{
+    font-size:9px;
+    padding-left : 10px;
+}
+
+.sns-wrap{
+    text-align: right;
+}
+
+.sns-img{
+    height: 20px;
+    width: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    font-size: 12px;
+    padding: 20px;
+    color:#B4A3AD;
+}
