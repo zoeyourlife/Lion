@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'KyoboHandwriting2020A';
+    background-image: url(https://wallpapercave.com/wp/wp9502135.jpg);
+    background-size: cover;
+}
+
+article{
+    padding: 50px;
+    margin: 20px;
+}
+
+
+table{
+    padding: 50px auto;
+    margin: 20px auto;
+}
+
+h1{
+    font-size: 45px;
+    color: whitesmoke;
+}
+
+h2{
+    font-size: 35px;
+    color: gray;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+blockquote, footer{
+    font-size: 20px;
+    text-align: center;
+}
