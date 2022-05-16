@@ -8,6 +8,9 @@ for x in range(1,16): #1~15까지의 숫자를 포함하는 range 객체를 만�
     if(x==15):
         print(List)
 
+#왜 15가 아닌 16을 넣으면 2의배수 제거하는 코드에서 왜 안되는지 궁금했는데
+#remove 함수를 사용해서 제거하다보면 누락되는 부분이 생길 수가 있기 때문이다.
+
 # for x in range(20,35):
 #     num = int(input())
 #     List.append(num)
