@@ -1,12 +1,18 @@
 #2 리스트 명은 List인 빈 리스트 생성
 List=[]
 
-#3 첫번째 반복문. range() 1~15, 리스트의 요소로 추가, 조건문 14번째면 print()
-for x in range(1,15):
-    if(x==14):
+#3 첫번째 반복문. range() 1~15, 리스트의 요소로 추가, 조건문 15번째면 print()
+for x in range(1,16): #1~15까지의 숫자를 포함하는 range 객체를 만든다.
+    num = int(input())
+    List.append(num)
+    if(x==15):
         print(List)
-    else:
-        List.append(x)
+
+# for x in range(20,35):
+#     num = int(input())
+#     List.append(num)
+#     if(x==34):
+#         print(List)
 
 #4 두번째 반복문, 정수가 2의 배수라면 리스트에서 제거
 for x in List:
