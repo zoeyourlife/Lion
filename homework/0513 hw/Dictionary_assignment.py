@@ -24,7 +24,7 @@ while True:
 
 print("dict_keys: ", list(Dic.keys()))
 print("dict_values: ", list(Dic.values()))
-print(Dic.items())
+print("dict_items: ", list(Dic.items()))
     
 
 #4 반복문 안에 조건문을 통해서
