@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block contents %}
+<div class="container">
+    <div class="grid-container">
+        <div class="cell"><a class="first" href="">엄마랑</a><img src="{% static 'img/travel.jpg' %}"></div>
+        <div class="cell"><a class="first" href="">딸기주스</a><img src="{% static 'img/딸기.jpg' %}"></div>
+        <div class="cell"><a class="first" href="">딸기빙수</a><img src="{% static 'img/빙수.jpg' %}"></div>
+        <div class="cell"><a class="first" href="">플레이리스트</a><img src="{% static 'img/playlist.png' %}"></div>
+        <div class="cell"><a class="first" href="">고백</a><img src="{% static 'img/고백.jpg' %}"></div>
+        <div class="cell"><a class="first" href="">MBTI</a><img src="{% static 'img/istp.png' %}"></div>
+        <div class="cell"><a class="first" href="">토끼</a><img src="{% static 'img/토끼.jpg' %}"></div>
+        <div class="cell"><a class="first" href="">처녀자리</a><img src="{% static 'img/cheo.jpg' %}"></div>
+        <div class="cell"><a class="first" href="">멋사 합격 통보</a><img src="{% static 'img/lion1.jpg' %}"></div>
+    </div>
+</div>
+<div class="conatiner">
+    <!--첫번째 부트스트랩 사용했습니다.-->
+    <nav aria-label="Page navigation example" class="nav-position">
+        <ul class="pagination">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="{% url 'gal2' %}">2</a></li>
+            <li class="page-item"><a class="page-link" href="{% url 'gal3' %}">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+{% endblock %}

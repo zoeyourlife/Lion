@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #CECCCD;
+    width: 140px;
+    height: 25px;
+    vertical-align: center;
+    text-align: center;
+}
+
+th {
+    border: 1px solid #CECCCD;
+    height: 30px;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+    width: 40px;
+    height: 25px;
+}
+
+span.fw {
+    color: white;
+}
+
+td span:hover {
+    background-color: black;
+    color: #ffc045;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'KyoboHandwriting2020A';
+}
